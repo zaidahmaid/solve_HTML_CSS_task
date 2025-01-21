@@ -1,0 +1,17 @@
+h1 {
+    display: block;
+    background-color: darkred;
+    height: fit-content;
+    width: max-content;
+  }
+  fieldset {
+    width: fit-content;
+    height: fit-content;
+    margin: 20px;
+    background-color: antiquewhite;
+  }
+  button {
+    height: 50px;
+    width: 175px;
+    background-color: brown;
+  }

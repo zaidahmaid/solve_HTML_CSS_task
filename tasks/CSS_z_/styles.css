@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f0f4f8;
+    font-family: Arial, sans-serif;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    position: relative;
+    width: 420px; 
+    height: 380px; 
+    background-color: #fff;
+    overflow: auto; 
+    padding: 10px;
+    align-self: center;
+}
+
+.item {
+    position: relative;
+    width: 90px;
+    height: 90px;
+    background-color: #ffd700; 
+    color: white;
+    font-weight: bold;
+    margin: 10px; 
+    float: left; 
+}
+
+.sticky {
+    background-color: #ff6b81; 
+    position: sticky;
+    top: 10px; 
+    z-index: 1; 
