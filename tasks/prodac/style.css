@@ -1,0 +1,241 @@
+:root{
+    --primaryColor: #5b827d;
+    --secondaryColor: #daa3b2;
+    --lightColor : #ffffff;
+    --bgColor-1 : #171a1c;
+    --IBgColor : #9494943e;
+    --IBgColor2: #94949480;
+    --bgColor-2 : #22282a;
+    /* --fa-font: font awesom 6; */
+}
+*{
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+    box-sizing: border-box;
+    /* overflow-x: hidden; */
+}
+body{
+    /* display: flex; */
+    /* flex-direction: column; */
+    background-color: #ffffff;
+}
+nav{
+    height: 6vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    z-index: 1;
+    position: sticky;
+    top: 0;
+    background-color: #90d3d9;
+    
+}
+.contaner{
+    background-image: url(./Jeep-car.png);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: end;
+    
+
+}
+nav >h1{
+    /* align-items: flex-start; */
+    color: #ffffff;
+    font-size: xx-large;
+}
+nav > ul{
+    display: flex;
+    list-style: none;
+}
+nav > ul > li{
+    margin-left: 1vw;
+    margin-right: 1vw;
+    font-size: large;
+    text-align: center;
+    font-family: awesom;
+    
+}
+nav > ul > li >a{
+text-decoration: none;
+color: var(--lightColor);
+font-size: 20px;
+padding: 25px;
+border-radius: 50px;
+}
+
+nav > ul >li > a:hover{
+    background-color: #daa3b2;
+
+    
+}
+/* .hi1{
+    background-color:var(--secondaryColor) ;
+    border-radius: 25px;
+   
+}
+.hi2 {
+    background-color: #daa3b2;
+} */
+/* nav > ul > li > a {
+    text-decoration: none;
+    color: #ffffff;
+    padding: 25px;
+    border-radius: 25px;
+    
+}
+    */
+div > h1{
+    color: #ffffff;
+    font-size: 50px;
+    margin-bottom: 5vh;
+    
+
+} 
+/* .fa-arrow-right{
+    font-size: 50px;
+    color: #ffffff;
+    margin-bottom: 5vh;
+    border: #ffffff solid 3px;
+    border-radius: 50px;
+    padding: 10px 10px 10px 10px;
+    
+} */
+ div > i{
+    font-size: 50px;
+    color: #ffffff;
+    margin-bottom: 5vh;
+    border: #ffffff solid 3px;
+    border-radius: 50px;
+    padding: 10px 10px 10px 10px;
+    margin-left: 1vh;
+    
+ }
+/* .fa-arrow-left{
+    color: #ffffff;
+    font-size: 50px;
+    margin-bottom: 5vh;
+    margin-left: 15px;
+    border: #ffffff solid 3px;
+    border-radius: 50px;
+    padding: 10px 10px 10px 10px; */
+
+}
+.sec{
+display: flex;
+flex-direction: column;
+align-content: space-evenly;
+text-align: center;
+justify-content: space-evenly;
+height: 100vh;
+}
+#button{
+    background-color: #daa3b2;
+    border-radius: 50px;
+    font-size: 20px;
+    width: 230PX;
+    align-self: center;
+    height: 90px;
+    border-style: none;
+}
+#button :hover{
+    background-color: #171a1c;
+    color: aliceblue;
+
+}
+
+.ther{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+}
+div > img {
+    height: 300PX;
+    width: 300px;
+    
+}
+.mainpic{
+    display: flex;
+    align-self: center;
+    margin: 40px;
+}
+table{
+    /* align-items: center; */
+    margin:100px 40%;
+    width: 500px;
+    transform: translate(-30% ,-3%);
+    height: 100px;
+    /* background-color: #171a1c; */
+    border-spacing: 0;
+}
+td{
+    width: 300px;
+    /* border: #171a1c solid; */
+    height: 50px;
+    /* font: var(--lightColor); */
+    /* background-color: #171a1c */
+    font-style: var(--lightColor);
+    text-align: left;
+    padding-left: 20px;
+}
+.black{
+background-color: #171a1c;
+}
+td:first-child{
+    color: #ffffff;
+}
+td:nth-child(even){
+    background-color: #ffffff;
+
+}
+tr:nth-child(even) td:nth-child(2){
+    background-color: aliceblue;
+}
+form{
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    justify-content: center;
+    align-content: center;
+    height: 50vh;
+    background-image: linear-gradient(180deg,#5b827d,#4d5457);
+    text-align: center;
+
+}
+input{
+    padding: 1vh;
+    margin: 0.75vh;
+    width: 40vh;
+    border-radius: 5PX;
+    border: 1px solid #171a1c;
+    opacity: 75%;
+}
+textarea{
+    height: 20vh;
+    width: 82vh;
+    border-radius: 5PX;
+    border: 1px solid #171a1c;
+    margin: 1vh;
+    opacity: 75%;
+}
+form > button{
+    background-color: #daa3b2;
+    border-radius: 50px;
+    font-size: 20px;
+    width: 180PX;
+    align-self: center;
+    height: 50px;
+    border-style: none;
+    color: #ffffff;
+    justify-self: center;
+    justify-items: center;
+    
+}
+#lasbut:hover{
+    background-color: #171a1c;
+    color: aliceblue;
+    cursor: pointer;

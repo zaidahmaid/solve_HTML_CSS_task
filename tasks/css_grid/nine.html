@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      section {
+        display: grid;
+        grid-template-columns: repeat(5, 100px);
+        grid-template-rows: repeat(5, 100px);
+      }
+    </style>
+  </head>
+  <body>
+    <section>
+      <div style="background-color: red; opacity: 50%; grid-area: 1/1/4/4">
+        Top
+      </div>
+      <div style="background-color: green; opacity: 50%; grid-area: 3/3/6/6">
+        middle
+      </div>
+      <div style="background-color: blue; opacity: 50%; grid-area: 2/2/5/5">
+        bottom
+      </div>
+    </section>
+  </body>
+</html>

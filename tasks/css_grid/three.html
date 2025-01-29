@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        display: grid;
+        grid-template-areas:
+          "header header"
+          "nav nav"
+          " aside article "
+          "footer footer";
+        grid-template-columns: 1fr auto;
+        grid-template-rows: repeat(4, auto);
+        gap: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <header
+      style="
+        text-align: center;
+        background-color: yellow;
+        padding: 2rem;
+        border-radius: 20px;
+        grid-area: header;
+      "
+    >
+      header
+    </header>
+    <nav
+      style="
+        text-align: center;
+        background-color: blue;
+        padding: 2rem;
+        border-radius: 20px;
+        grid-area: nav;
+      "
+    >
+      nav
+    </nav>
+
+    <article
+      style="
+        text-align: center;
+        background-color: gray;
+        padding: 2rem;
+        border-radius: 20px;
+        grid-area: article;
+      "
+    >
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, quasi
+      tempore. Earum consectetur fugit tempora ut est laborum nisi doloribus, ad
+      accusamus rem minima, voluptas dolorem, iusto accusantium? Voluptatem eum
+      dignissimos voluptate neque iure, facere modi nam molestias! Amet,
+      accusamus velit id blanditiis dolorem atque minus voluptas iure aliquid
+      quam tenetur nostrum ducimus impedit architecto dolor. Cum, animi. A
+      blanditiis doloremque cum et inventore, consequatur voluptates nemo
+      aspernatur nulla ex, corrupti enim aliquid, iste delectus expedita
+      laboriosam consectetur. Eaque delectus amet accusamus? Iure saepe pariatur
+      laborum, vitae sunt porro doloremque illo minus qui. Eveniet, possimus.
+      Molestiae facilis repellendus ratione quia. Lorem ipsum dolor sit amet
+      consectetur adipisicing elit. Aliquam error ea dicta, veniam maxime
+      nostrum quas, doloremque cumque quos corporis et temporibus ipsum,
+      inventore architecto voluptatibus porro ullam obcaecati est fugit quis
+      accusantium! Dolorum eum dignissimos facere exercitationem officia, quis,
+      odit totam consectetur rem eius labore quod pariatur hic, excepturi saepe
+      nemo. Praesentium iusto culpa blanditiis deserunt eius et facere, sit id
+      incidunt facilis officia? Dolores, accusamus tempore temporibus in officia
+      itaque doloremque. Pariatur facilis, debitis nulla nobis autem perferendis
+      nisi minus temporibus voluptatum quos cum sed illo tenetur officiis quis!
+      Porro dignissimos dolore laborum saepe cupiditate, eaque quae
+      exercitationem.
+    </article>
+    <aside
+      style="
+        text-align: initial;
+        background-color: orangered;
+        padding: 2rem;
+        border-radius: 20px;
+        grid-area: aside;
+      "
+    >
+      sidbar
+    </aside>
+    <footer
+      style="
+        text-align: center;
+        background-color: rgb(75, 75, 75);
+        padding: 2rem;
+        border-radius: 20px;
+        grid-area: footer;
+      "
+    >
+      footer
+    </footer>
+  </body>
+</html>
